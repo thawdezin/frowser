@@ -195,39 +195,39 @@ class _CrossPlatformSettingsState extends State<CrossPlatformSettings> {
           );
         },
       ),
-      ListTile(
-        leading: Container(
-          height: 35,
-          width: 35,
-          margin: const EdgeInsets.only(top: 6.0, left: 6.0),
-          child: const CircleAvatar(
-              backgroundImage: AssetImage("assets/icon/icon.png")),
-        ),
-        title: const Text("Flutter InAppWebView Project"),
-        subtitle: const Text(
-            "https://github.com/pichillilorenzo/flutter_inappwebview"),
-        trailing: const Icon(Icons.arrow_forward),
-        onLongPress: () {
-          showGeneralDialog(
-            context: context,
-            barrierDismissible: false,
-            pageBuilder: (context, animation, secondaryAnimation) {
-              return const ProjectInfoPopup();
-            },
-            transitionDuration: const Duration(milliseconds: 300),
-          );
-        },
-        onTap: () {
-          showGeneralDialog(
-            context: context,
-            barrierDismissible: false,
-            pageBuilder: (context, animation, secondaryAnimation) {
-              return const ProjectInfoPopup();
-            },
-            transitionDuration: const Duration(milliseconds: 300),
-          );
-        },
-      )
+      // ListTile(
+      //   leading: Container(
+      //     height: 35,
+      //     width: 35,
+      //     margin: const EdgeInsets.only(top: 6.0, left: 6.0),
+      //     child: const CircleAvatar(
+      //         backgroundImage: AssetImage("assets/icon/icon.png")),
+      //   ),
+      //   title: const Text("Flutter InAppWebView Project"),
+      //   subtitle: const Text(
+      //       "https://github.com/pichillilorenzo/flutter_inappwebview"),
+      //   trailing: const Icon(Icons.arrow_forward),
+      //   onLongPress: () {
+      //     showGeneralDialog(
+      //       context: context,
+      //       barrierDismissible: false,
+      //       pageBuilder: (context, animation, secondaryAnimation) {
+      //         return const ProjectInfoPopup();
+      //       },
+      //       transitionDuration: const Duration(milliseconds: 300),
+      //     );
+      //   },
+      //   onTap: () {
+      //     showGeneralDialog(
+      //       context: context,
+      //       barrierDismissible: false,
+      //       pageBuilder: (context, animation, secondaryAnimation) {
+      //         return const ProjectInfoPopup();
+      //       },
+      //       transitionDuration: const Duration(milliseconds: 300),
+      //     );
+      //   },
+      // )
     ];
 
     if (Util.isAndroid()) {
