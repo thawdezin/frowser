@@ -18,7 +18,6 @@ import 'package:flutter_font_icons/flutter_font_icons.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:share_extend/share_extend.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../animated_flutter_browser_logo.dart';
@@ -1078,7 +1077,8 @@ class _WebViewTabAppBarState extends State<WebViewTabAppBar>
               ElevatedButton(
                 child: const Text("Share"),
                 onPressed: () async {
-                  await ShareExtend.share(file.path, "image");
+                  //await ShareExtend.share(file.path, "image");
+                  /// Read
                 },
               )
             ],

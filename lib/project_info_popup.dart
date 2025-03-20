@@ -49,7 +49,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
           text: const TextSpan(children: [
             TextSpan(text: "Github: ", style: TextStyle(color: Colors.black)),
             TextSpan(
-                text: "pichillilorenzo/flutter_inappwebview",
+                text: "thawdezin/frowser",
                 style: TextStyle(color: Colors.blue))
           ]),
         ),
@@ -59,7 +59,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
             key: GlobalKey(),
             webViewModel: WebViewModel(
                 url: WebUri(
-                    "https://github.com/pichillilorenzo/flutter_inappwebview")),
+                    "https://github.com/thawdezin/frowser")),
           ));
           Navigator.pop(context);
         },
@@ -81,7 +81,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
           text: const TextSpan(children: [
             TextSpan(text: "Github: ", style: TextStyle(color: Colors.black)),
             TextSpan(
-                text: "pichillilorenzo/flutter_browser_app",
+                text: "thawdezin/frowser",
                 style: TextStyle(color: Colors.blue))
           ]),
         ),
@@ -91,7 +91,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
             key: GlobalKey(),
             webViewModel: WebViewModel(
                 url: WebUri(
-                    "https://github.com/pichillilorenzo/flutter_browser_app")),
+                    "https://github.com/thawdezin/frowser")),
           ));
           Navigator.pop(context);
         },

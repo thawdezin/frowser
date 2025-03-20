@@ -203,7 +203,7 @@ class _CrossPlatformSettingsState extends State<CrossPlatformSettings> {
       //   ),
       //   title: const Text("Flutter InAppWebView Project"),
       //   subtitle: const Text(
-      //       "https://github.com/pichillilorenzo/flutter_inappwebview"),
+      //       "https://github.com/thawdezin/frowser"),
       //   trailing: const Icon(Icons.arrow_forward),
       //   onLongPress: () {
       //     showGeneralDialog(
