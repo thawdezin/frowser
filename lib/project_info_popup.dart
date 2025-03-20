@@ -71,7 +71,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
       ),
       ElevatedButton.icon(
         icon: const Icon(
-          MaterialCommunityIcons.github,
+          MaterialCommunityIcons.bus,
           size: 40.0,
         ),
         style: ButtonStyle(
@@ -79,9 +79,9 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
                 (states) => Colors.grey.shade300)),
         label: RichText(
           text: const TextSpan(children: [
-            TextSpan(text: "Github: ", style: TextStyle(color: Colors.black)),
+            TextSpan(text: "DD BitePu: ", style: TextStyle(color: Colors.black)),
             TextSpan(
-                text: "thawdezin/frowser",
+                text: "Myanmar YBS App",
                 style: TextStyle(color: Colors.blue))
           ]),
         ),
@@ -91,7 +91,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
             key: GlobalKey(),
             webViewModel: WebViewModel(
                 url: WebUri(
-                    "https://github.com/thawdezin/frowser")),
+                    "https://play.google.com/store/apps/details?id=com.thawdezin.bus_nexus_rader")),
           ));
           Navigator.pop(context);
         },
